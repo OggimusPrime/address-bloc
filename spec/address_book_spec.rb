@@ -44,7 +44,7 @@ RSpec.describe AddressBook do
 
       expect(book.entries.size).to eq 1
 
-      book.remove_entry('Ada Lovelace', '010.012.1815', 'augusta.king@lovelace.com')
+      book.remove_entry('Ada Lovelace')
 
       expect(book.entries.size).to eq 0
     end
